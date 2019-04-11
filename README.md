@@ -7,5 +7,18 @@ You should hear a chirping bird in front of you. Rotate yourself 360 degrees to 
 
 ## Instructions
 * Check out Android project from GitHub
-* Add the AAR files from the Bose AR SDK which should be found in the AAR directory
+* Download and unzip Bose AR SDK in separate directory
+* Find the AAR directory in Bose AR SDK
+* Open up Android project in Android Studio
+* To avoid including unreleased AAR files, you'll need to add them as modules
+* In Android Studio, 'File'->'New'->'New Module'->'Import .JAR/.AAR Package' (scroll down) and navigate to AAR Directory and add AAR file
+* Repeat for all three (3) AAR files
+* Uncomment the `project dependencies` in app/build.gradle
+```
+//    implementation project(':blecore-release')
+//    implementation project(':bosewearable-release')
+//    implementation project(':bosewearableui-release')
+```
+* Build/Run Project
+
 
