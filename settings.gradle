@@ -1,1 +1,1 @@
-include ':app', ':blecore-release', ':bosewearable-release', ':bosewearableui-release'
+include ':app'

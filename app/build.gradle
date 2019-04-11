@@ -24,9 +24,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':blecore-release')
-    implementation project(':bosewearable-release')
-    implementation project(':bosewearableui-release')
+//    implementation project(':blecore-release')
+//    implementation project(':bosewearable-release')
+//    implementation project(':bosewearableui-release')
     implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
